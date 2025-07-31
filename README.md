@@ -17,6 +17,7 @@ This project explores the financial and operational performance of airlines acro
 - **Asia Pacific, Europe, and North America** had the highest number of low-cost carriers, while **Africa had none** in the dataset.
 
 📄 See full [SQL queries used to derive these insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/airline_performance_solutions.md).
+📊 See the [dashboard showing key metrics and insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/Airline%20Performance%20Dashboard.png)
 
 ## 🛠️ Tools Used
 
