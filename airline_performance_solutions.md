@@ -1,6 +1,6 @@
 <h1 align="center">AIRLINE PERFORMANCE ANALYSIS</h1>
 
-PS: Queries are written in **PostgreSQL**.
+Note: Queries are written in **PostgreSQL**.
 
 ### Task 1. Identify Key Metrics for Low-Cost vs. Non-Low-Cost Airlines
 ```sql
