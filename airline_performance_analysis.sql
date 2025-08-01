@@ -1,7 +1,29 @@
 -- DATA IMPORT AND TABLE SETUP
--- The 'airline_data' table was created manually using a CREATE TABLE statement 
--- to define column data types and structure before importing the CSV data.
--- Data was imported into PostgreSQL using the pgAdmin import tool.
+-- A custom enum type ('is_low') was defined for the low_cost_carrier column.
+-- The 'airline_data' table was manually created to enforce data types and structure.
+-- Data was then imported from a CSV file using the pgAdmin import tool.
+
+-- ENUM type definition 
+CREATE TYPE is_low AS ENUM ('Y', 'N');
+
+-- Table creation
+CREATE TABLE IF NOT EXISTS airline_performance.airline_data (
+    iata_code CHAR(2),
+    airline_name VARCHAR,
+    region VARCHAR,
+    functional_currency CHAR(3),
+    ebit_usd BIGINT,
+    load_factor NUMERIC(4,3),
+    low_cost_carrier airline_performance.is_low,
+    airline_age SMALLINT,
+    num_routes SMALLINT,
+    passenger_yield NUMERIC(4,3),
+    ask BIGINT,
+    avg_fleet_age NUMERIC(4,2),
+    fleet_size SMALLINT,
+    aircraft_utilisation NUMERIC(3,1)
+);
+
 
 -- Task 1: Identify Key Metrics for Low-Cost vs. Non-Low-Cost Airlines
 -- Compare average EBIT, Load Factor, Number of Routes, Passenger Yield, and Fleet Age by carrier type.
