@@ -21,7 +21,7 @@ This project explores the financial and operational performance of airlines acro
 
 ## 📈 Tableau Dashboard
 
-[![Airline Dashboard Preview](Airline%20Performance%20Dashboard.png)](https://public.tableau.com/app/profile/richmond.wejoye/viz/AirlinePerformanceOverview/ExecutiveSummary)
+[![Airline Dashboard Preview](airline_perf_dashboard.png)](https://public.tableau.com/app/profile/richmond.wejoye/viz/AirlinePerformanceOverview/ExecutiveSummary)
 
 ## 🛠️ Tools Used
 
