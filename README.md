@@ -17,7 +17,7 @@ This project explores the financial and operational performance of airlines acro
 - The **Middle East** outperformed other regions in revenue and aircraft utilization, with an average EBIT of $1.9B and efficient use of fleet resources.  
 - **Asia Pacific, Europe, and North America** had the highest number of low-cost carriers, while **Africa had none** in the dataset.
 
-📄 See full [SQL queries used to derive these insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/airline_performance_solutions.md).
+📄 See full [SQL queries used to derive these insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/airline_performance_analysis.sql).
 📊 See the [dashboard showing key metrics and insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/Airline%20Performance%20Dashboard.png)
 
 ## 🛠️ Tools Used
