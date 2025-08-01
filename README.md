@@ -18,7 +18,10 @@ This project explores the financial and operational performance of airlines acro
 - **Asia Pacific, Europe, and North America** had the highest number of low-cost carriers, while **Africa had none** in the dataset.
 
 📄 See full [SQL queries used to derive these insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/airline_performance_analysis.sql).
-📊 See the [dashboard showing key metrics and insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/Airline%20Performance%20Dashboard.png)
+
+## 📈 Tableau Dashboard
+
+[![Airline Dashboard Preview](Airline%20Performance%20Dashboard.png)](https://public.tableau.com/app/profile/richmond.wejoye/viz/AirlinePerformanceOverview/ExecutiveSummary)
 
 ## 🛠️ Tools Used
 
@@ -36,11 +39,6 @@ The dataset and original problem brief (including the guiding questions) were sh
 Credit to **Silvia** for providing both the dataset and the project framing that guided this analysis.  
 
 [Connect with her on LinkedIn](https://www.linkedin.com/in/silvia-wutche/)
-
-## 📈 Tableau Dashboard
-
-View the full dashboard here:  
-🔗 [https://public.tableau.com/app/profile/your-link](https://public.tableau.com/app/profile/richmond.wejoye/viz/AirlinePerformanceOverview/ExecutiveSummary)
 
 ## 📜 License
 
