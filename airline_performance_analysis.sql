@@ -3,11 +3,14 @@
 -- The 'airline_data' table was manually created to enforce data types and structure.
 -- Data was then imported from a CSV file using the pgAdmin import tool.
 
+-- Set the search path to your custom schema
+SET search_path TO airline_performance;
+
 -- ENUM type definition 
 CREATE TYPE is_low AS ENUM ('Y', 'N');
 
 -- Table creation
-CREATE TABLE IF NOT EXISTS airline_performance.airline_data (
+CREATE TABLE IF NOT EXISTS airline_data (
     iata_code CHAR(2),
     airline_name VARCHAR,
     region VARCHAR,
