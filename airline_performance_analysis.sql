@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS airline_data (
 );
 
 
--- Task 1: Identify Key Metrics for Low-Cost vs. Non-Low-Cost Airlines
+-- Analysis 1: Identify Key Metrics for Low-Cost vs. Non-Low-Cost Airlines
 -- Compare average EBIT, Load Factor, Number of Routes, Passenger Yield, and Fleet Age by carrier type.
 SELECT
     low_cost_carrier,
@@ -41,8 +41,8 @@ FROM airline_data
 GROUP BY low_cost_carrier;
 
 
--- Task 2: Regional Performance Analysis of Airlines
--- QUERY 1: Comparative analysis among regions using avg EBIT, Load Factor, Yield, Utilisation & Airline Age
+-- ANALYSIS 2: Regional Performance Analysis of Airlines
+-- Comparative analysis among regions using avg EBIT, Load Factor, Yield, Utilisation & Airline Age
 SELECT
     region,
     ROUND(AVG(ebit_usd), 2) AS avg_ebit_usd,
@@ -54,7 +54,8 @@ FROM airline_data
 GROUP BY region
 ORDER BY avg_ebit_usd DESC;
 
--- QUERY 2: Number of low-cost carriers per region
+-- ANALYSIS 3: Distribution of Low-Cost Carriers by Region
+-- Counts the number of low-cost carriers in each region.
 SELECT
     region,
     SUM(CASE WHEN low_cost_carrier = 'Y' THEN 1 ELSE 0 END) AS low_cost_carriers
