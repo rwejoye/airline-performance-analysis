@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS airline_data (
     functional_currency CHAR(3),
     ebit_usd BIGINT,
     load_factor NUMERIC(4,3),
-    low_cost_carrier airline_performance.is_low,
+    low_cost_carrier is_low,
     airline_age SMALLINT,
     num_routes SMALLINT,
     passenger_yield NUMERIC(4,3),
