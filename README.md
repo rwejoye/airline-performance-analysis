@@ -21,8 +21,8 @@ The dataset used for this analysis contains key operational and financial variab
 
 - Key Columns Included:
 
-  - EBIT in USD (ebit_usd) : Earnings Before Interest and Taxes, reported in USD. This is a primary indicator of airline profitability.
-  - Load Factor (load_factor) : Percentage of available seating capacity that is actually filled with paying passengers. It serves as a key efficiency metric.
+  - EBIT in USD (ebit_usd) : Earnings Before Interest and Taxes, reported in USD.
+  - Load Factor (load_factor) : Percentage of available seating capacity that is actually filled with paying passengers.
   - Number of Routes (num_routes) : Total number of flight routes operated by the airline, providing insight into market reach and network size.
   - Passenger Yield (passenger_yield) : Revenue per revenue passenger kilometer. Higher values indicate better revenue generation per unit distance.
   - Average Fleet Age (avg_fleet_age) : The average age of all aircraft in an airline’s fleet, which influences maintenance costs and efficiency.
