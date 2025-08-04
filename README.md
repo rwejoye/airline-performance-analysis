@@ -70,7 +70,6 @@ This project followed a structured analytical workflow using Microsoft Excel, Po
 - **Asia Pacific**, **Europe**, and **North America** had the most low-cost carriers, while **Africa** had none in the dataset — possibly pointing to market gaps or regulatory and infrastructure challenges in the region.
 
  ## 🔍 Sample SQL Queries
- Below are some of the key SQL queries used to extract and aggregate data that underpin the insights shared above
 
  ###  Identify Key Metrics for Low-Cost vs. Non-Low-Cost Airlines
  ```sql
