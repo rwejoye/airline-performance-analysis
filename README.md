@@ -45,7 +45,7 @@ This project followed a structured analytical workflow using Microsoft Excel, Po
   - Null values and data types
   - Number of rows and columns
   - Quick insights using filter options (e.g., understanding which regions were represented)
-  This step ensured proper schema design before importing the data into SQL.
+    This step ensured proper schema design before importing the data into SQL.
 
 - PostgreSQL was used for data transformation and exploratory analysis. Key actions included:
   - Creating and importing the dataset into a relational table
