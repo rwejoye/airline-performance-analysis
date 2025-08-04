@@ -107,7 +107,8 @@ ORDER BY avg_ebit_usd DESC;
 
 🔗 [View full dashboard on Tableau Public](https://public.tableau.com/app/profile/richmond.wejoye/viz/AirlinePerformanceOverview/ExecutiveSummary)
 
-📌 Recommendations
+
+## 📌 Recommendations
 - Airlines should prioritize fleet modernization to lower costs and improve efficiency.
 - Low-cost carriers need strategies to boost revenue per passenger without losing affordability.
 - Traditional carriers should optimize pricing to increase seat occupancy while maintaining yields.
