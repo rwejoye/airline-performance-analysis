@@ -44,7 +44,7 @@ This project followed a structured analytical workflow using Microsoft Excel, Po
   - Unique values in columns (e.g., 'Y' or 'N' in low_cost_carrier)
   - Null values and data types
   - Number of rows and columns
-  - Quick insights using filter options (e.g., understanding which regions were represented)
+  - Quick insights using filter options (e.g., understanding which regions were represented)  
     This step ensured proper schema design before importing the data into SQL.
 
 - PostgreSQL was used for data transformation and exploratory analysis. Key actions included:
@@ -57,7 +57,7 @@ This project followed a structured analytical workflow using Microsoft Excel, Po
   - Average EBIT (USD)
   - Load factor
   - Aircraft utilization
-  - Fleet age and fleet size
+  - Fleet age and fleet size  
   Visuals such as bar charts, treemaps, and text tables were used to bring out patterns and insights clearly.
 
 ## 📊 Key Insights
