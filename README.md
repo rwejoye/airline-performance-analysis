@@ -1,6 +1,6 @@
 # ✈️ Airline Performance Analysis
 
-This project explores the financial and operational performance of airlines across global regions (Africa, Asia Pacific, Europe, Latin America, Middle East and North America). The analysis focuses on comparing low-cost and non-low-cost carriers, as well as a comparative analysis to determine the region with the most efficient and profitable airlines.
+This project explores the financial and operational performance of airlines across global regions (Africa, Asia Pacific, Europe, Latin America, Middle East and North America). The analysis focuses on comparing low-cost and traditional (non-low-cost) carriers, as well as a comparative analysis to determine the region with the most efficient and profitable airlines.
 
 ## 🎯 Project Focus
 
