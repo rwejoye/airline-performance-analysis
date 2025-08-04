@@ -45,20 +45,20 @@ This project followed a structured analytical workflow using Microsoft Excel, Po
   - Null values and data types
   - Number of rows and columns
   - Quick insights using filter options (e.g., understanding which regions were represented)
-  - This step ensured proper schema design before importing the data into SQL.
+  This step ensured proper schema design before importing the data into SQL.
 
 - PostgreSQL was used for data transformation and exploratory analysis. Key actions included:
   - Creating and importing the dataset into a relational table
   - Aggregating performance metrics by airline type (low_cost_carrier) and by region
   - Deriving new metrics such as average aircraft utilization (ASK / fleet_size)
-  - Investigating patterns in profitability, efficiency, and regional dynamics using grouping and filtering
+  - Investigating patterns in profitability and efficiency.
 
 - Tableau was used for data visualization. The key performance indicators (KPIs) explored included:
   - Average EBIT (USD)
   - Load factor
   - Aircraft utilization
   - Fleet age and fleet size
-  - Visuals such as bar charts, treemaps, and text tables were used to bring out patterns and insights clearly.
+  Visuals such as bar charts, treemaps, and text tables were used to bring out patterns and insights clearly.
 
 ## 📊 Key Insights
 
