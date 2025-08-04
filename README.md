@@ -98,13 +98,13 @@ GROUP BY region
 ORDER BY avg_ebit_usd DESC;
 ```
 
-📄 See full [SQL queries used to derive these insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/airline_performance_analysis.sql).
+See full [SQL queries used to derive these insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/airline_performance_analysis.sql).
 
 ## 📈 Tableau Dashboard
 
 ![Airline Dashboard Preview](airline_dashboard.png)
 
-🔗 [View full dashboard on Tableau Public](https://public.tableau.com/app/profile/richmond.wejoye/viz/AirlinePerformanceOverview/ExecutiveSummary)
+[View full dashboard on Tableau Public](https://public.tableau.com/app/profile/richmond.wejoye/viz/AirlinePerformanceOverview/ExecutiveSummary)
 
 
 ## 📌 Recommendations
