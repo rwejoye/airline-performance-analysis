@@ -2,20 +2,20 @@
 
 This project explores the financial and operational performance of airlines across global regions (Africa, Asia Pacific, Europe, Latin America, Middle East and North America). The analysis focuses on comparing low-cost and traditional (non-low-cost) carriers, as well as a comparative analysis to determine the region with the most efficient and profitable airlines.
 
-## 🎯 Project Focus
+## Project Focus
 
 - Compare performance metrics between low-cost and non-low-cost carriers.
 - Analyze airline efficiency and profitability across different regions.
 - Visualize Key Performance Indicators (KPIs) to highlight critical trends.
 
-## 🔑 Relevance of the Project
+## Relevance of the Project
 
 - Profitability Optimization: Airlines need to understand the key drivers of profit across different carrier types to make informed decisions on pricing, fleet investment, and route planning.
 - Operational Efficiency: Striking the right balance between load factor and passenger yield is critical for maximizing aircraft utilization without compromising revenue or overloading capacity.
 - Regional Differences: Airlines operate under varied economic and regulatory conditions across regions, affecting fleet utilization and profitability, which in turn impacts local and national economies through aviation.
 - Analyst Perspective: This project provides an opportunity to explore the aviation domain deeply, applying analytical skills to uncover business insights and effectively visualize key performance indicators that influence strategic decisions.
 
-## 📂 Dataset & Problem Brief
+## Dataset & Problem Brief
 
 The dataset used for this analysis contains key operational and financial variables that are critical in assessing airline performance across regions and carrier types. These metrics formed the foundation for evaluating profitability, efficiency, and market strategy.
 
@@ -32,11 +32,11 @@ The dataset used for this analysis contains key operational and financial variab
   - Average Airline Age : Represents the maturity of the airline itself, which may correlate with experience, brand strength, or operational scale.
 
 The dataset and original problem brief (including the guiding questions) were shared via Google Drive:  
-🔗 [Access the source folder here](https://drive.google.com/drive/folders/1Rj4EFaMmmaAJqvD_fx-w8_juQbuyRx1I)
+[Access the source folder here](https://drive.google.com/drive/folders/1Rj4EFaMmmaAJqvD_fx-w8_juQbuyRx1I)
 
 Special thanks to [Silvia Wutche](https://www.linkedin.com/in/silvia-wutche/) for making both the dataset and problem framing available for this analysis.
 
-## 🧪 Methodology
+## Methodology
 
 This project followed a structured analytical workflow using Microsoft Excel, PostgreSQL, and Tableau:
 
@@ -60,7 +60,7 @@ This project followed a structured analytical workflow using Microsoft Excel, Po
   - Fleet age and fleet size  
   Visuals such as bar charts, treemaps, and text tables were used to bring out patterns and insights clearly.
 
-## 📊 Key Insights
+## Key Insights
 
 - **Non-low-cost carriers** generated higher average EBIT ($981M) than **low-cost carriers** ($284M). This suggests that a low-cost model may not always translate to higher profitability, prompting airlines to evaluate whether maintaining a low-cost strategy aligns with their financial goals and market positioning.  
 - **Low-cost carriers** typically operate **newer fleets**, averaging 7.3 years compared to 11.4 years for non-low-cost airlines. The newer fleet age reflects the relatively recent emergence of low-cost carriers as a business model. This could explain their lower average earnings, as many are still in early growth phases compared to traditional carriers with established routes, customer bases, and infrastructure.
@@ -69,7 +69,7 @@ This project followed a structured analytical workflow using Microsoft Excel, Po
 - The **Middle East** outperformed other regions in revenue and aircraft utilization, with an average EBIT of $1.9B and efficient use of fleet resources showing how smart fleet usage can boost profits. This suggests that how a region manages its fleet can directly impact airline earnings.
 - **Asia Pacific**, **Europe**, and **North America** had the most low-cost carriers, while **Africa** had none in the dataset — possibly pointing to market gaps or regulatory and infrastructure challenges in the region.
 
- ## 🔍 Sample SQL Queries
+ ## Sample SQL Queries
 
  ###  Identify Key Metrics for Low-Cost vs. Non-Low-Cost Airlines
  ```sql
@@ -100,7 +100,7 @@ ORDER BY avg_ebit_usd DESC;
 
 See full [SQL queries used to derive these insights](https://github.com/rwejoye/airline-performance-analysis/blob/main/airline_performance_analysis.sql).
 
-## 📈 Tableau Dashboard
+## Tableau Dashboard
 
 ![Airline Dashboard Preview](airline_dashboard.png)
 
